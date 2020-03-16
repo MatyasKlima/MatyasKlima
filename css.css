@@ -1,0 +1,83 @@
+h1 {
+    color:red;}
+
+.nadpis1 {
+    font-size:20px;}
+body {
+    background-color: chartreuse;   }
+
+body div div div{
+    font-size:50px;
+    color:Brown;}
+
+.divclass {
+    color: Cyan;
+    font-size: 15px; }
+
+body img{
+    width: 250px;
+    height: 250px;
+}
+.TopMenu {
+
+}
+
+.TopMenu ul{
+
+
+}
+
+.TopMenu ul li{
+    float: left;
+    margin-left: 21px;
+    list-style: upper-alpha;
+}
+.TopMenu ul li a {
+    color:red;
+    text-decoration: none;
+
+
+}
+
+.TopMenu ul li a:hover {
+    color: brown;
+}
+
+table.table1 {
+    background-color: lightskyblue;
+    font-size: 20px;
+    width:100%;
+
+    
+}
+
+.table1 tr {
+  
+}
+
+table.table1 tr td{
+       border-bottom:5px solid white;
+    border-top: 5px solid white;
+    border-left:  5px solid white;
+    border-right: 5px solid white;
+}
+
+.head{
+    font-size: 35px;
+    font-style: italic;
+    color: tomato
+    
+}
+
+.foot{
+    font-size: 50px;
+    font-style: oblique;
+    color: cyan
+
+}
+
+
+
+
+
+
