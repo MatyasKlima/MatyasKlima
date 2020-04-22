@@ -22,6 +22,16 @@ return array (
       'file' => 'C:\\wamp64\\www\\NETTE\\app\\model\\Forms\\Mexicana.php',
       'time' => 1585573106,
     ),
+    'App\\Presenters\\Register' => 
+    array (
+      'file' => 'C:\\wamp64\\www\\NETTE\\app\\model\\Forms\\Register.php',
+      'time' => 1586887614,
+    ),
+    'Register2' => 
+    array (
+      'file' => 'C:\\wamp64\\www\\NETTE\\app\\model\\Forms\\Register2.php',
+      'time' => 1587570368,
+    ),
     'App\\Model\\UserManager' => 
     array (
       'file' => 'C:\\wamp64\\www\\NETTE\\app\\model\\UserManager.php',
@@ -31,6 +41,11 @@ return array (
     array (
       'file' => 'C:\\wamp64\\www\\NETTE\\app\\model\\UserManager.php',
       'time' => 1580942146,
+    ),
+    'AutoPresenter' => 
+    array (
+      'file' => 'C:\\wamp64\\www\\NETTE\\app\\presenters\\AutoPresenter.php',
+      'time' => 1587569969,
     ),
     'App\\Presenters\\BasePresenter' => 
     array (
@@ -51,6 +66,11 @@ return array (
     array (
       'file' => 'C:\\wamp64\\www\\NETTE\\app\\presenters\\HomepagePresenter.php',
       'time' => 1583879318,
+    ),
+    'App\\Presenters\\HouskyPresenter' => 
+    array (
+      'file' => 'C:\\wamp64\\www\\NETTE\\app\\presenters\\HouskyPresenter.php',
+      'time' => 1586887817,
     ),
     'App\\Presenters\\MatyasklimaPresenter' => 
     array (
@@ -77,21 +97,19 @@ return array (
       'file' => 'C:\\wamp64\\www\\NETTE\\app\\router\\RouterFactory.php',
       'time' => 1580942146,
     ),
-    'App\\Presenters\\Register' => 
-    array (
-      'file' => 'C:\\wamp64\\www\\NETTE\\app\\model\\Forms\\Register.php',
-      'time' => 1586887614,
-    ),
-    'App\\Presenters\\HouskyPresenter' => 
-    array (
-      'file' => 'C:\\wamp64\\www\\NETTE\\app\\presenters\\HouskyPresenter.php',
-      'time' => 1586887817,
-    ),
   ),
   1 => 
   array (
-    'Nette\\Environment' => 39,
+    'Nette\\Environment' => 51,
     'App\\Presenters\\HouskyPresenterPresenter' => 1,
     'App\\Presenters\\HouskypresenterPresenter' => 3,
+    'App\\Presenters\\IndexPresenter' => 1,
+    'App\\Presenters\\MaturitaPresenter' => 1,
+    'App\\Presenters\\BordelPresenter' => 1,
+    'App\\Presenters\\Register2' => 2,
+    'App\\Presenters\\UstrednaPresenter' => 1,
+    'App\\Presenters\\Housky1Presenter' => 1,
+    'App\\Presenters\\AutoPresenter' => 3,
+    'App\\Presenters\\AutopresenterPresenter' => 2,
   ),
 );
