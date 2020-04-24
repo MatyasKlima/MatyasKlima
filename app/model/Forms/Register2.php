@@ -5,7 +5,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-namespace \App\Presenters;
+namespace App\Presenters;
 /**
  * Description of Register2
  *
@@ -23,8 +23,15 @@ class Register2 extends \Nette\Application\UI\Form {
         $this->addText("cislo","tel. číslo") ->setRequired("Zadejte tel. číslo")-> addRule(\Nette\Forms\Form:: INTEGER,"není číslo",6);
         $this->addSelect("platba","platba", array("Kartou","Hotovost") );
         $this->addSelect("pohlavi", "pohlavi", array("muz", "zena"));
-        $this->addRadioList("pecivo", "druh pečiva", array("housky", "rohlíky", "chleba", "koláče", "rohlíky"));
-        $this->addCheckboxList("napoje", "nápoje", array("Sprite", "Cola", "Džus","Plzeň","Kozel"));
+        $this->addRadioList("rokvyroby", "rok výroby", array("2015","2016","2017","2018","2019","2020"));
+        $this->addCheckboxList("auto", "druh auta", array("SUV", "sedan", "hatchback", "convertible", "kabriolet"));
+        $this->addCheckboxList("znacka", "značka", array("Audi", "BMW", "Mercedes","Škoda","Volkswagen"));
         $this->addPassword("heslo","heslo") ->setRequired("Zadejte heslo");
+        $this->addPassword("heslo2","heslo znovu")
+           ->setRequired("Zadejte heslo znovu") ->addRule(\Nette\Forms\Form::EQUAL, "Hesla nesouhlasi!", $this["heslo"]);
+        $this->addTextArea("popis","popis",50,5);
+        $this->addUpload('Upload');
+        $this->addSubmit("odeslat", "odeslat");
+        return $this;
     }
 }

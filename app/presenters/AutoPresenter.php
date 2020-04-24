@@ -5,7 +5,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-namespace \App\Presenters;
+namespace App\Presenters;
 /**
  * Description of AutoPresenter
  *
@@ -19,7 +19,7 @@ class AutoPresenter extends BasePresenter{
         $params = $this->getRequest();
         $this->template->params = $params->post;
     }
-    public function createComponentRegister2($name) {
+    public function createComponentRegister($name) {
         return new Register2($this,$name);
     }
             

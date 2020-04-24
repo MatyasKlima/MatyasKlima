@@ -42,132 +42,144 @@ class Container_bb78206cbe extends Nette\DI\Container
 			'App\Presenters\BasePresenter' => [
 				1 => [
 					'application.1',
-					'application.4',
+					'application.2',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\Application\UI\Presenter' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\Application\UI\Control' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\Application\UI\Component' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\ComponentModel\Container' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\ComponentModel\Component' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\Application\UI\IRenderable' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\ComponentModel\IContainer' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\ComponentModel\IComponent' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\Application\UI\ISignalReceiver' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\Application\UI\IStatePersistent' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'ArrayAccess' => [
 				[
 					'application.1',
-					'application.3',
+					'application.2',
 					'application.4',
 					'application.5',
 					'application.6',
 					'application.7',
 					'application.8',
+					'application.9',
 				],
 			],
 			'Nette\Application\IPresenter' => [
@@ -182,31 +194,34 @@ class Container_bb78206cbe extends Nette\DI\Container
 					'application.8',
 					'application.9',
 					'application.10',
+					'application.11',
 				],
 			],
-			'App\Presenters\Error4xxPresenter' => [1 => ['application.1']],
-			'App\Presenters\ErrorPresenter' => [1 => ['application.2']],
-			'App\Presenters\HomepagePresenter' => [1 => ['application.3']],
-			'App\Presenters\HouskyPresenter' => [1 => ['application.4']],
-			'App\Presenters\MatyasklimaPresenter' => [1 => ['application.5']],
-			'App\Presenters\Numbers' => [1 => ['application.6']],
-			'App\Presenters\MexicanaPresenter' => [1 => ['application.7']],
-			'App\Presenters\SignPresenter' => [1 => ['application.8']],
-			'NetteModule\ErrorPresenter' => [1 => ['application.9']],
-			'NetteModule\MicroPresenter' => [1 => ['application.10']],
+			'App\Presenters\AutoPresenter' => [1 => ['application.1']],
+			'App\Presenters\Error4xxPresenter' => [1 => ['application.2']],
+			'App\Presenters\ErrorPresenter' => [1 => ['application.3']],
+			'App\Presenters\HomepagePresenter' => [1 => ['application.4']],
+			'App\Presenters\HouskyPresenter' => [1 => ['application.5']],
+			'App\Presenters\MatyasklimaPresenter' => [1 => ['application.6']],
+			'App\Presenters\Numbers' => [1 => ['application.7']],
+			'App\Presenters\MexicanaPresenter' => [1 => ['application.8']],
+			'App\Presenters\SignPresenter' => [1 => ['application.9']],
+			'NetteModule\ErrorPresenter' => [1 => ['application.10']],
+			'NetteModule\MicroPresenter' => [1 => ['application.11']],
 			'Nette\DI\Container' => [1 => ['container']],
 		],
 		'services' => [
-			'application.1' => 'App\Presenters\Error4xxPresenter',
-			'application.10' => 'NetteModule\MicroPresenter',
-			'application.2' => 'App\Presenters\ErrorPresenter',
-			'application.3' => 'App\Presenters\HomepagePresenter',
-			'application.4' => 'App\Presenters\HouskyPresenter',
-			'application.5' => 'App\Presenters\MatyasklimaPresenter',
-			'application.6' => 'App\Presenters\Numbers',
-			'application.7' => 'App\Presenters\MexicanaPresenter',
-			'application.8' => 'App\Presenters\SignPresenter',
-			'application.9' => 'NetteModule\ErrorPresenter',
+			'application.1' => 'App\Presenters\AutoPresenter',
+			'application.10' => 'NetteModule\ErrorPresenter',
+			'application.11' => 'NetteModule\MicroPresenter',
+			'application.2' => 'App\Presenters\Error4xxPresenter',
+			'application.3' => 'App\Presenters\ErrorPresenter',
+			'application.4' => 'App\Presenters\HomepagePresenter',
+			'application.5' => 'App\Presenters\HouskyPresenter',
+			'application.6' => 'App\Presenters\MatyasklimaPresenter',
+			'application.7' => 'App\Presenters\Numbers',
+			'application.8' => 'App\Presenters\MexicanaPresenter',
+			'application.9' => 'App\Presenters\SignPresenter',
 			'application.application' => 'Nette\Application\Application',
 			'application.linkGenerator' => 'Nette\Application\LinkGenerator',
 			'application.presenterFactory' => 'Nette\Application\IPresenterFactory',
@@ -241,6 +256,7 @@ class Container_bb78206cbe extends Nette\DI\Container
 			'inject' => [
 				'application.1' => true,
 				'application.10' => true,
+				'application.11' => true,
 				'application.2' => true,
 				'application.3' => true,
 				'application.4' => true,
@@ -251,16 +267,17 @@ class Container_bb78206cbe extends Nette\DI\Container
 				'application.9' => true,
 			],
 			'nette.presenter' => [
-				'application.1' => 'App\Presenters\Error4xxPresenter',
-				'application.10' => 'NetteModule\MicroPresenter',
-				'application.2' => 'App\Presenters\ErrorPresenter',
-				'application.3' => 'App\Presenters\HomepagePresenter',
-				'application.4' => 'App\Presenters\HouskyPresenter',
-				'application.5' => 'App\Presenters\MatyasklimaPresenter',
-				'application.6' => 'App\Presenters\Numbers',
-				'application.7' => 'App\Presenters\MexicanaPresenter',
-				'application.8' => 'App\Presenters\SignPresenter',
-				'application.9' => 'NetteModule\ErrorPresenter',
+				'application.1' => 'App\Presenters\AutoPresenter',
+				'application.10' => 'NetteModule\ErrorPresenter',
+				'application.11' => 'NetteModule\MicroPresenter',
+				'application.2' => 'App\Presenters\Error4xxPresenter',
+				'application.3' => 'App\Presenters\ErrorPresenter',
+				'application.4' => 'App\Presenters\HomepagePresenter',
+				'application.5' => 'App\Presenters\HouskyPresenter',
+				'application.6' => 'App\Presenters\MatyasklimaPresenter',
+				'application.7' => 'App\Presenters\Numbers',
+				'application.8' => 'App\Presenters\MexicanaPresenter',
+				'application.9' => 'App\Presenters\SignPresenter',
 			],
 		],
 		'aliases' => [
@@ -300,7 +317,39 @@ class Container_bb78206cbe extends Nette\DI\Container
 	}
 
 
-	public function createServiceApplication__1(): App\Presenters\Error4xxPresenter
+	public function createServiceApplication__1(): App\Presenters\AutoPresenter
+	{
+		$service = new App\Presenters\AutoPresenter;
+		$service->injectPrimary(
+			$this,
+			$this->getService('application.presenterFactory'),
+			$this->getService('routing.router'),
+			$this->getService('http.request'),
+			$this->getService('http.response'),
+			$this->getService('session.session'),
+			$this->getService('security.user'),
+			$this->getService('latte.templateFactory')
+		);
+		$service->invalidLinkMode = 5;
+		return $service;
+	}
+
+
+	public function createServiceApplication__10(): NetteModule\ErrorPresenter
+	{
+		$service = new NetteModule\ErrorPresenter($this->getService('tracy.logger'));
+		return $service;
+	}
+
+
+	public function createServiceApplication__11(): NetteModule\MicroPresenter
+	{
+		$service = new NetteModule\MicroPresenter($this, $this->getService('http.request'), $this->getService('routing.router'));
+		return $service;
+	}
+
+
+	public function createServiceApplication__2(): App\Presenters\Error4xxPresenter
 	{
 		$service = new App\Presenters\Error4xxPresenter;
 		$service->injectPrimary(
@@ -318,21 +367,14 @@ class Container_bb78206cbe extends Nette\DI\Container
 	}
 
 
-	public function createServiceApplication__10(): NetteModule\MicroPresenter
-	{
-		$service = new NetteModule\MicroPresenter($this, $this->getService('http.request'), $this->getService('routing.router'));
-		return $service;
-	}
-
-
-	public function createServiceApplication__2(): App\Presenters\ErrorPresenter
+	public function createServiceApplication__3(): App\Presenters\ErrorPresenter
 	{
 		$service = new App\Presenters\ErrorPresenter($this->getService('tracy.logger'));
 		return $service;
 	}
 
 
-	public function createServiceApplication__3(): App\Presenters\HomepagePresenter
+	public function createServiceApplication__4(): App\Presenters\HomepagePresenter
 	{
 		$service = new App\Presenters\HomepagePresenter;
 		$service->injectPrimary(
@@ -350,7 +392,7 @@ class Container_bb78206cbe extends Nette\DI\Container
 	}
 
 
-	public function createServiceApplication__4(): App\Presenters\HouskyPresenter
+	public function createServiceApplication__5(): App\Presenters\HouskyPresenter
 	{
 		$service = new App\Presenters\HouskyPresenter;
 		$service->injectPrimary(
@@ -368,7 +410,7 @@ class Container_bb78206cbe extends Nette\DI\Container
 	}
 
 
-	public function createServiceApplication__5(): App\Presenters\MatyasklimaPresenter
+	public function createServiceApplication__6(): App\Presenters\MatyasklimaPresenter
 	{
 		$service = new App\Presenters\MatyasklimaPresenter;
 		$service->injectPrimary(
@@ -386,7 +428,7 @@ class Container_bb78206cbe extends Nette\DI\Container
 	}
 
 
-	public function createServiceApplication__6(): App\Presenters\Numbers
+	public function createServiceApplication__7(): App\Presenters\Numbers
 	{
 		$service = new App\Presenters\Numbers;
 		$service->injectPrimary(
@@ -404,7 +446,7 @@ class Container_bb78206cbe extends Nette\DI\Container
 	}
 
 
-	public function createServiceApplication__7(): App\Presenters\MexicanaPresenter
+	public function createServiceApplication__8(): App\Presenters\MexicanaPresenter
 	{
 		$service = new App\Presenters\MexicanaPresenter;
 		$service->injectPrimary(
@@ -422,7 +464,7 @@ class Container_bb78206cbe extends Nette\DI\Container
 	}
 
 
-	public function createServiceApplication__8(): App\Presenters\SignPresenter
+	public function createServiceApplication__9(): App\Presenters\SignPresenter
 	{
 		$service = new App\Presenters\SignPresenter($this->getService('3'), $this->getService('4'));
 		$service->injectPrimary(
@@ -436,13 +478,6 @@ class Container_bb78206cbe extends Nette\DI\Container
 			$this->getService('latte.templateFactory')
 		);
 		$service->invalidLinkMode = 5;
-		return $service;
-	}
-
-
-	public function createServiceApplication__9(): NetteModule\ErrorPresenter
-	{
-		$service = new NetteModule\ErrorPresenter($this->getService('tracy.logger'));
 		return $service;
 	}
 
